@@ -1,0 +1,40 @@
+{
+  "name": "one-page",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@heroicons/react": "^1.0.6",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.4",
+    "@sendgrid/mail": "^7.7.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.0.2",
+    "formik": "^2.2.9",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.31.3",
+    "react-scroll-into-view": "^1.12.0",
+    "react-slide-toggle": "^0.3.5",
+    "swiper": "^8.3.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "@types/react": "^18.0.12",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.7.3"
+  }
+}

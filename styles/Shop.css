@@ -1,0 +1,106 @@
+body {
+  background-color: #000;
+}
+h2 {
+  margin-bottom: 30px;
+}
+.box {
+  max-width: 1005px;
+  width: 95%;
+}
+
+.shop-visual .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.shop-visual .vis_txt_txt > strong {
+  font-size: 52px;
+  padding: 1rem 0;
+  display: inline-block;
+}
+.shop-visual .vis_txt_txt > p {
+  font-size: 18px;
+}
+.shop-visual .vis_txt_img {
+  display: flex;
+  align-items: center;
+}
+.shop-visual .vis_txt_img .shop {
+  margin-left: 10px;
+  color: rgb(192, 192, 192);
+}
+.shopList {
+  margin-top: 4%;
+}
+.shopList > li {
+  width: 48%;
+  margin-bottom: 4%;
+}
+.faq .MuiAccordion-root {
+  background-color: transparent;
+  color: #fff;
+  border-top: 1px solid #fff;
+}
+.faq .MuiAccordion-root:last-of-type {
+  border-bottom: 1px solid #fff;
+}
+.faq .MuiAccordion-root .MuiSvgIcon-fontSizeMedium {
+  fill: #fff;
+}
+.faq .MuiAccordionSummary-content {
+  margin: 20px 0 20px 8px;
+}
+.faq .MuiCollapse-vertical {
+  background-color: #fff;
+  color: #333;
+}
+.shop-contact .MuiInput-root {
+  color: #fff;
+}
+.shop-contact .MuiFormControl-root {
+  width: 100%;
+}
+.shop-contact label {
+  color: #fff;
+}
+.shop-contact input {
+  width: 100%;
+}
+.shop-contact textarea {
+  width: 100%;
+}
+.shop-contact .MuiInput-underline::before {
+  border-bottom: 1px solid #fff;
+}
+.shop-contact .MuiInput-underline::after {
+  border-bottom: 1px solid #fff;
+}
+.shop-contact .MuiInput-underline:hover:not(.Mui-disabled)::before {
+  border-bottom: 2px solid #fff;
+}
+.shop-contact .MuiInputLabel-root.Mui-focused {
+  color: #fff;
+}
+.shop-contact .form_box ul > li {
+  margin-bottom: 30px;
+}
+.shop-contact .fileBtn {
+  text-transform: none;
+}
+.chat_float {
+  color: #333;
+}
+.float_btn {
+  background-color: rgb(251 191 36) !important;
+}
+footer .box {
+  display: flex;
+  justify-content: space-between;
+}
+footer .law > ul > li:first-of-type a {
+  color: #fff;
+}
+.txt_send {
+  background-color: rgb(251 191 36);
+}
